@@ -1,6 +1,6 @@
 from abc import ABC, abstractmethod
 
-from app.schemas.models import RegisterUserRequest, RegisterUserResponse, LoginUserRequest, LoginUserResponse
+from app.schemas.requests import RegisterUserRequest, RegisterUserResponse, LoginUserRequest, LoginUserResponse
 
 
 class AuthServices(ABC):

@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Car_Rental_System.iml" filepath="$PROJECT_DIR$/.idea/Car_Rental_System.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/car-rental-service-api.iml" filepath="$PROJECT_DIR$/.idea/car-rental-service-api.iml" />
     </modules>
   </component>
