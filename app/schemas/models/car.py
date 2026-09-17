@@ -2,6 +2,7 @@ import uuid
 from uuid import UUID
 
 from sqlmodel import SQLModel, Field
+from decimal import Decimal
 from app.schemas.models.enums.car_brand import CarBrand
 from app.schemas.models.enums.car_model import CarModel
 from app.schemas.models.enums.car_state import CarState
@@ -13,4 +14,5 @@ class Car(SQLModel, table=True):
     model : CarModel
     release_year: ReleaseYear
     plate_number: str = Field(unique=True)
+    daily_price: Decimal = Field(default=0)
     car_state : CarState = Field(default=CarState.AVAILABLE)

@@ -22,6 +22,14 @@ class UserRepository:
         statement = select(User)
         return self._session.exec(statement).all()
 
+    def find_by_email(self, email: str):
+        statement = select(User).where(User.email == email)
+        return self._session.exec(statement).first()
+
+    def find_by_username(self, username: str):
+        statement = select(User).where(User.username == username)
+        return self._session.exec(statement).first()
+
     def delete_by_id(self,user_id: UUID) -> bool:
         user = self.find_by_id(user_id)
 
