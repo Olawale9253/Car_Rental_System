@@ -1,4 +1,4 @@
-#!/home/gamp/Documents/car_rental_system_fastAPI/.venv/bin/python
+#!/home/gamp/Documents/Car_Rental_System/.venv/bin/python3
 # -*- coding: utf-8 -*-
 import sys
 from uvicorn.main import main

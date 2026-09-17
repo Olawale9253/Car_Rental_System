@@ -29,15 +29,11 @@
   </component>
   <component name="DBNavigator.Project.DatabaseAssistantManager">
     <assistants>
-      <assistant-state connection-id="dd528419-114e-4562-9145-91563a9da50d" assistant-type="SELECT_AI" default-profile-name="" selected-chat-id="" availability="UNAVAILABLE" acknowledgement="NONE">
-        <tools />
-        <mcp-servers />
-      </assistant-state>
       <assistant-state connection-id="dd528419-114e-4562-9145-91563a9da50d" assistant-type="PUBLIC" default-profile-name="" selected-chat-id="" availability="AVAILABLE" acknowledgement="NONE" selected="true">
         <tools />
         <mcp-servers />
       </assistant-state>
-      <assistant-state connection-id="80ac53f8-2db9-48d7-bffd-66f8cf95fe8f" assistant-type="SELECT_AI" default-profile-name="" selected-chat-id="" availability="UNAVAILABLE" acknowledgement="NONE">
+      <assistant-state connection-id="dd528419-114e-4562-9145-91563a9da50d" assistant-type="SELECT_AI" default-profile-name="" selected-chat-id="" availability="UNAVAILABLE" acknowledgement="NONE">
         <tools />
         <mcp-servers />
       </assistant-state>
@@ -45,7 +41,7 @@
         <tools />
         <mcp-servers />
       </assistant-state>
-      <assistant-state connection-id="a1f69c95-cfd4-46c9-b3f1-b9b3558004ae" assistant-type="SELECT_AI" default-profile-name="" selected-chat-id="" availability="UNAVAILABLE" acknowledgement="NONE">
+      <assistant-state connection-id="80ac53f8-2db9-48d7-bffd-66f8cf95fe8f" assistant-type="SELECT_AI" default-profile-name="" selected-chat-id="" availability="UNAVAILABLE" acknowledgement="NONE">
         <tools />
         <mcp-servers />
       </assistant-state>
@@ -53,7 +49,7 @@
         <tools />
         <mcp-servers />
       </assistant-state>
-      <assistant-state connection-id="98b24f65-76f1-4243-920e-82a0ccbf4798" assistant-type="SELECT_AI" default-profile-name="" selected-chat-id="" availability="UNAVAILABLE" acknowledgement="NONE">
+      <assistant-state connection-id="a1f69c95-cfd4-46c9-b3f1-b9b3558004ae" assistant-type="SELECT_AI" default-profile-name="" selected-chat-id="" availability="UNAVAILABLE" acknowledgement="NONE">
         <tools />
         <mcp-servers />
       </assistant-state>
@@ -61,11 +57,15 @@
         <tools />
         <mcp-servers />
       </assistant-state>
-      <assistant-state connection-id="f7a7fad0-4a0b-438b-acad-fa0c8dd9ff96" assistant-type="SELECT_AI" default-profile-name="" selected-chat-id="" availability="UNAVAILABLE" acknowledgement="NONE">
+      <assistant-state connection-id="98b24f65-76f1-4243-920e-82a0ccbf4798" assistant-type="SELECT_AI" default-profile-name="" selected-chat-id="" availability="UNAVAILABLE" acknowledgement="NONE">
         <tools />
         <mcp-servers />
       </assistant-state>
       <assistant-state connection-id="f7a7fad0-4a0b-438b-acad-fa0c8dd9ff96" assistant-type="PUBLIC" default-profile-name="" selected-chat-id="" availability="AVAILABLE" acknowledgement="NONE" selected="true">
+        <tools />
+        <mcp-servers />
+      </assistant-state>
+      <assistant-state connection-id="f7a7fad0-4a0b-438b-acad-fa0c8dd9ff96" assistant-type="SELECT_AI" default-profile-name="" selected-chat-id="" availability="UNAVAILABLE" acknowledgement="NONE">
         <tools />
         <mcp-servers />
       </assistant-state>
@@ -93,9 +93,9 @@
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
     <open-files>
-      <object connection-id="98b24f65-76f1-4243-920e-82a0ccbf4798" object-ref="schemas/car_rental_system_db/tables/car" />
+      <object connection-id="98b24f65-76f1-4243-920e-82a0ccbf4798" object-ref="schemas/car_rental_system_db/tables/rental" />
       <object connection-id="98b24f65-76f1-4243-920e-82a0ccbf4798" object-ref="schemas/car_rental_system_db/tables/user" />
-      <object connection-id="98b24f65-76f1-4243-920e-82a0ccbf4798" object-ref="schemas/car_rental_system_db/tables/customer" />
+      <object connection-id="98b24f65-76f1-4243-920e-82a0ccbf4798" object-ref="schemas/car_rental_system_db/tables/car" />
     </open-files>
   </component>
   <component name="DBNavigator.Project.DatabasePrerequisiteManager">
